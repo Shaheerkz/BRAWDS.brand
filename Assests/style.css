@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ------------------------------------------------------------- Font Families------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* ------------------------------------------------------------- Header Styling------------------------------------------------------------- */
+.main{
+    background: url(/Assests/images/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2, h3, h4, h5, p, span, small{
+    color: #ffffff;
+}
+.nav-logo{
+    transition: 0.3s;
+}
+.nav-logo:hover{
+    transform: rotate(360deg) scale(1.2) ;
+    -webkit-transform: rotate(360deg) scale(1.2) ;
+    -moz-transform: rotate(360deg) scale(1.2) ;
+}
+.nav-section{
+    display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+     border-top: 1px solid #cecece;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav-links a li{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 30px;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.nav-links li:hover{
+    color: #ffffff;
+    transform: skew(0deg) translate(2px,-8px);
+    -webkit-transform: skew(0deg) translate(2px,-8px);
+    -moz-transform: skew(0deg) translate(2px,-8px);
+}
+.nav-btn {
+    background: #ad34ad;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    width: 170px;
+    height: 50px;
+    transform: skew(-20deg);
+    transition: 0.3s;
+}
+.nav-btn:hover{
+    color: #ffffff;
+    transform: skew(-20deg) translate(2px,-8px);
+    -webkit-transform: skew(-20deg) translate(2px,-8px);
+    -moz-transform: skew(-20deg) translate(2px,-8px);
+}
+
+/* ------------------------------------------------------------- Banner Styling------------------------------------------------------------- */
+.ratting-side .ratting-one,.ratting-side .ratting-two {
+    margin: 0 20px 0 0;
+}
+.icon-one{
+    color:goldenrod;
+}
+
+.stars i{
+    background: lightgreen;
+    padding: 2px;
+}
+.icon-two{
+    color: #ffffff;
+}
+
+.stars-second i{
+    color: goldenrod;
+    font-size: 12px;
+}
+.ratting-one{
+    position: relative;
+    top: -12px;
+}
+.ratting-two small, .ratting-three small {
+    font-size: 8px;
+    position: relative;
+    top: -21px;
+}
+.stars-second{
+    position: relative;
+    top: -8px;
+}
+.banner-textSide h1{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.banner-buttons{
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    margin: 20px 0;
+}
+.contact-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 0 20px 0 0;
+    font-weight: 600;
+    background: #ffffff;
+    color: #000000;
+    padding: 15px 40px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.contact-btn span{
+    font-weight: 900;
+}
+.contact-btn:hover{
+    color: #000000;
+    transform: skew(0deg) translate(2px,-8px);
+    -webkit-transform: skew(0deg) translate(2px,-8px);
+    -moz-transform: skew(0deg) translate(2px,-8px);
+}
+.price-btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    transition: 0.3s;
+}
+.price-btn:hover{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transform: skew(0deg) translate(2px,-8px);
+    -webkit-transform: skew(0deg) translate(2px,-8px);
+    -moz-transform: skew(0deg) translate(2px,-8px);
+}
+/* ------------------------------------------------------------- Slider Styling------------------------------------------------------------- */
+.slider-button{
+    position: relative;
+    top: -6px;
+    left: 5px;
+}
+.slider-button i{
+    font-size: 25px;
+    color: #ffffff;
+}
+.slider{
+    transition: 600ms;
+    width: 561px;
+}
+.slider-item{
+    width: 187px;
+}
