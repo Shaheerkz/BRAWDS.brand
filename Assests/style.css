@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, p, span, small{
     -webkit-transform: rotate(360deg) scale(1.2) ;
     -moz-transform: rotate(360deg) scale(1.2) ;
 }
+.nav-logo::before{
+    content: url('/Assests/images/banner_sideLogo.png');
+}
 .nav-section{
     display: flex;
      justify-content: space-between;
@@ -101,7 +104,7 @@ li{
     top: -8px;
 }
 .banner-textSide h1{
-    font-size: 3rem;
+    font-size: 2.725rem;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 900;
@@ -151,6 +154,12 @@ li{
     -webkit-transform: skew(0deg) translate(2px,-8px);
     -moz-transform: skew(0deg) translate(2px,-8px);
 }
+
+/* .banner-sideImage{
+    background-image: url(/Assests/images/Vector\ Smart\ Object.png);
+    background-position: center;
+    background-size: cover;
+} */
 /* ------------------------------------------------------------- Slider Styling------------------------------------------------------------- */
 .slider-button{
     position: relative;
@@ -163,8 +172,8 @@ li{
 }
 .slider{
     transition: 600ms;
-    width: 561px;
 }
-.slider-item{
+#slider-item{
+    margin-right: 34px;
     width: 187px;
 }

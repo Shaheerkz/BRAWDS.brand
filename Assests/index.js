@@ -1,6 +1,3 @@
-
-
-
 const slider = document.getElementById("slider");
 const slides = slider.children;
 const imgIndex = slider.children;
@@ -10,7 +7,7 @@ function prev() {
         if (imgIndex[i].className === "Active") {
             imgIndex[i].className = "";
             imgIndex[i - 1].className = "Active";
-            slider.style.transform = "translateX(" + (i - 1) * -187 + "px)";
+            slider.style.transform = "translateX(" + (i - 1) * -221 + "px)";
             break;
         }
     }
@@ -20,7 +17,7 @@ function next() {
         if (imgIndex[x].className === "Active") {
             imgIndex[x].className = "";
             imgIndex[x + 1].className = "Active";
-            slider.style.transform = "translateX(" + (x + 1) * -187 + "px)";
+            slider.style.transform = "translateX(" + (x + 1) * -221 + "px)";
             break;
         }
     }
