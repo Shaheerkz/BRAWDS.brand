@@ -3,6 +3,7 @@ const slides = slider.children;
 const imgIndex = slider.children;
 imgIndex[0].className = "Active";
 function prev() {
+
     for (let i = 0; i < imgIndex.length; i++) {
         if (imgIndex[i].className === "Active") {
             imgIndex[i].className = "";
@@ -13,7 +14,7 @@ function prev() {
     }
 };
 function next() {
-    for (let x = 0; x < imgIndex.length; x++) {
+    for (let x = 0; x <= imgIndex.length; x++) {
         if (imgIndex[x].className === "Active") {
             imgIndex[x].className = "";
             imgIndex[x + 1].className = "Active";
